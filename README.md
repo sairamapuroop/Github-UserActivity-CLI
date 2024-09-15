@@ -7,10 +7,13 @@ Clone the repository and run the following command:
 git clone https://github.com/sairamapuroop/github-user-activity.git
 cd github-user-activity
 ```
-
+Link the project globally to use a special command
+```bash
+npm link
+```
 
 Run the following command to list the activities of a user:
 ```bash
-node index.js <username>
-node index.js sairamapuroop
+github-cli <username>
+github-cli sairamapuroop
 ```
